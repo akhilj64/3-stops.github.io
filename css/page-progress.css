@@ -1,0 +1,28 @@
+.page-progress{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:50px;
+}
+.page-progress .round-progress{
+  border:8px solid #e0e3ed;
+  border-radius:100%;
+  width:70px;
+  height:70px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-right:15px;
+}
+.page-progress .page-count{
+  color:#8c8eb2;
+  font-size:14px;
+  font-weight:600;
+} 
+.page-progress .page-title h1{
+  font-size:21px;
+  line-height:26px;
+  color:#8c8eb2;
+  margin-top:0;
+}

@@ -1,0 +1,103 @@
+.form-section{
+  margin-bottom:40px;
+}
+.info-form .form-field-wrap:nth-child(2) input{
+  text-align:center;
+}
+.info-form .form-field-wrap .form-item{
+  position:relative;
+}
+.info-form .form-field-wrap .form-item .flag{
+  background:url("../images/india.png")no-repeat center;
+  width:23px;
+  height:18px;
+  display:inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+}
+.info-form .form-field-wrap .form-item input[name = "mobile"]{
+  padding-left:35px;
+}
+.promo-code.form-field-wrap .form-item{
+  display:flex;
+}
+.form-title{
+  color:#1a1e66;
+  font-size:21px;
+  margin-bottom:15px;
+}
+.info-form .form-field-wrap input,
+.info-form .form-field-wrap button{
+  background:#f3f4f8;
+  border:1px solid #f3f4f8;
+  box-shadow:none;
+  font-size:14px;
+  height:50px;
+}
+.info-form .form-field-wrap input::placeholder{
+  color:#8c8eb2;
+}
+.info-form .form-field-wrap button{
+  color:#324fad;
+  font-weight:600;
+}
+.info-form .form-field-wrap button{
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+}
+.info-form .payment .radio{
+  display:inline-block;
+  margin-right:20px;
+}
+.info-form .payment .radio input,
+.info-form .form-footer .checkbox input{
+  display:none;
+}
+.info-form .payment .radio .custom-radio,
+.info-form .form-footer .checkbox .custom-check
+{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #c1c8db;
+  margin-right:10px;
+  position:relative;
+}
+.info-form .form-footer .checkbox .custom-check{
+  border-radius:5px;
+}
+.info-form .payment .radio .custom-radio{
+  border-radius: 100%;
+}
+.info-form .payment .radio input:checked + .custom-radio,
+.info-form .form-footer .checkbox input:checked + .custom-check{
+  background:#324fad;
+  border: 2px solid #324fad;
+}
+.info-form .payment .radio input:checked + .custom-radio:after,
+.info-form .form-footer .checkbox input:checked + .custom-check:after{
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 7px;
+  height: 11px;
+  border: solid #ffffff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.info-form .payment .radio label,
+.info-form .form-footer .checkbox label{
+  padding-left:0;
+  display:flex;
+  align-items:center;
+  color:#8c8eb2;
+}
+.info-form .form-footer .checkbox{
+  margin-bottom:25px;
+}
+

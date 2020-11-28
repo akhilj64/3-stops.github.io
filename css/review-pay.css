@@ -1,0 +1,76 @@
+.review-pay{
+  background:#f4f4f6;
+  border-radius:20px;
+  padding:30px 25px;
+}
+.review-pay h3{
+  margin-top:0;
+  color: #1a1e66;
+  font-size:18px;
+  margin-bottom:15px;
+}
+.review-pay .info-date-wrapper{
+  color:#1a1e66;
+  font-size:14px;
+  margin-bottom:20px;
+}
+.review-pay .info-room{ 
+  margin-bottom:5px;
+}
+.review-pay .date-time span{
+  margin-right:20px;
+}
+.pay-bill-wrapper{
+  margin-bottom:20px;
+}
+.pay-bill-wrapper .list{
+  display:flex;
+  justify-content:space-between;
+}
+.pay-bill-wrapper .list .field-label{
+  color:#8c8eb2;
+  font-size:12px;
+}
+.pay-bill-wrapper .list .field-value{
+  color:#1a1e66;
+  font-size:12px;
+  font-weight:600;
+}
+.pay-bill-wrapper .list.total .field-label,
+.pay-bill-wrapper .list.total .field-value{
+  color:#1a1e66;
+  font-size:16px;
+  font-weight:600;
+}
+.pay-bill-wrapper .list:not(:last-child){
+  border-bottom:1px solid #cccccc;
+  padding-bottom:5px;
+  margin-bottom:10px; 
+}
+.pay-bill-wrapper .list.total{
+  padding-top:10px;
+  padding-bottom:15px; 
+}
+.pay-bill-wrapper .list .field-value span.tax{
+  display:block;
+  color:#8c8eb2;
+  font-size:11px;
+  font-weight:400;
+  padding-left:8px;
+}
+.tax-wrapper{
+  margin-bottom:40px;
+}
+.tax-wrapper .tax-info{
+  color:#8c8eb2;
+  font-size:11px;
+}
+.continue-button{
+  color:#ffffff;
+  font-size:14px;
+  width:100%;
+  padding:10px 30px;
+  border:0;
+  border-radius:5px;
+  background-image: linear-gradient(to right, #FFA500, #FF3333);
+}

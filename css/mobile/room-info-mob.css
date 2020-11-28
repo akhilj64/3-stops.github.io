@@ -1,0 +1,52 @@
+@media only screen and (max-width:767px){
+  .room-info .image-wrapper{
+  	width:100px;
+  }
+  .room-info .info-wrapper .details-wrapper{
+  	padding:10px 15px;
+  	width:calc(100% - 100px)
+  }
+  .room-info .image-wrapper .hours{
+  	left:0;
+  	bottom:20px;
+  	font-size:12px;
+  	padding:2px 5px;
+  }
+  .room-info .info-wrapper .main-title{
+    font-size:14px;
+    line-height:16px;
+  }
+  .room-info .info-wrapper .destination{
+  	font-size:12px;
+  }
+  .details-wrapper .top-wrapper {
+  	margin-bottom:10px;
+  }
+  .room-info .info-wrapper .like{
+    top:10px;
+  }
+  .room-info .info-wrapper .save,
+  .ratings .star-rate,
+  .ratings .value,
+  .ratings .feed-back,
+  .room-info .info-wrapper .right-wrap .aed-rate,
+  .room-info .info-footer{
+  	font-size:12px;
+  }
+  .ratings .star-rate, .ratings .value{
+  	padding:3px 5px;
+  }
+  .room-info .info-wrapper .right-wrap .rate{
+  	font-size:14px;
+  }
+  .room-info .info-footer{
+  	display:flex;
+  	justify-content:space-between;
+  }
+  .room-info .info-footer > div{
+  	margin-right:0;
+  }
+  .room-info .info-wrapper .main-title{
+  	max-width:130px;
+  }
+}
